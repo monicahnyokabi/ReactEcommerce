@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+ul li{
+  list-style-type: none;
+}
+
+h1{
+  color: #035e17;
+  font-size: 70px;
+  text-align: center;
+}
+
+.two{
+  display: inline-block ;
+  flex: right;
+  padding-right: 100px;
+  
+}
+.three{
+  display: inline-block ;
+  flex: right;
+  padding-right: 100px;
+}
+.four{
+  display: inline-block ;
+  flex: right;
+  padding-right: 100px;
+}
+.five{
+  display: inline-block ;
+  flex: right;
+  padding-right: 100px;
+}
+.six{
+  display: inline-block ;
+  flex: right;
+  padding-right: 100px;
+}
+
+.topnav {
+  background-color: rgb(59, 31, 31);
+  overflow: hidden;
+  align-content: center;
+  margin-right:350px;
+  margin-left:400px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 30px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #eb827f;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:black;
+  color: white;
+}
+/* img {
+  transform: scale(.75) translate(-10px, -10px);
+  transform-origin: 20px 50px;
+  
+} */
+.img {
+  background: #2db34a; 
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+  width: 95px;
+}
+img:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
